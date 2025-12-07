@@ -1,18 +1,25 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaStar } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 import Card from '../UI/Card';
 import Button from '../UI/Button';
 import { featuredDishes } from '../../data/content';
+import type { Dish } from '../../types';
 
 const categories = ['Tất Cả', 'Món Chính', 'Khai Vị'];
 
 const FeaturedDishes: React.FC = () => {
+    const navigate = useNavigate();
     const [selectedCategory, setSelectedCategory] = useState('Tất Cả');
 
     const filteredDishes = selectedCategory === 'Tất Cả'
         ? featuredDishes
         : featuredDishes.filter(dish => dish.category === selectedCategory);
+
+    const handleDishClick = (dish: Dish) => {
+        navigate(`/dish/${dish.id}`);
+    };
 
     return (
         <section id="menu" className="section-padding bg-gradient-to-b from-transparent to-christmas-beige-200">
@@ -49,8 +56,12 @@ const FeaturedDishes: React.FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {filteredDishes.map((dish) => (
-                        <Card key={dish.id}>
-                            <div className="relative overflow-hidden group">
+                        <Card
+                            key={dish.id}
+                            className="h-full flex flex-col cursor-pointer"
+                            onClick={() => handleDishClick(dish)}
+                        >
+                            <div className="relative overflow-hidden group flex-shrink-0">
                                 <img
                                     src={dish.image}
                                     alt={dish.name}
@@ -67,8 +78,8 @@ const FeaturedDishes: React.FC = () => {
                                 )}
                             </div>
 
-                            <div className="p-6 flex flex-col min-h-[280px]">
-                                <h3 className="text-xl font-bold text-gray-900 mb-2 line-clamp-2">
+                            <div className="p-6 flex flex-col flex-grow">
+                                <h3 className="text-xl font-bold text-gray-900 mb-2">
                                     {dish.name}
                                 </h3>
 
@@ -90,15 +101,22 @@ const FeaturedDishes: React.FC = () => {
                                     {dish.description}
                                 </p>
 
-                                <div className="flex items-center justify-between gap-3 pt-4 border-t border-gray-100">
+                                <div className="flex items-center justify-between gap-3 pt-4 border-t border-gray-100 mt-auto">
                                     <div className="flex flex-col flex-shrink-0">
                                         <span className="text-xs text-gray-500 mb-1 whitespace-nowrap">Giá chỉ từ</span>
                                         <span className="text-xl md:text-2xl font-bold text-christmas-red-600 whitespace-nowrap">
                                             {dish.price}
                                         </span>
                                     </div>
-                                    <Button size="small" variant="secondary" className="flex-shrink-0">
-                                        Gọi Món
+                                    <Button
+                                        size="small"
+                                        variant="secondary"
+                                        className="flex-shrink-0"
+                                        onClick={() => {
+                                            handleDishClick(dish);
+                                        }}
+                                    >
+                                        Xem Chi Tiết
                                     </Button>
                                 </div>
                             </div>
@@ -106,6 +124,8 @@ const FeaturedDishes: React.FC = () => {
                     ))}
                 </div>
             </div>
+
+
         </section>
     );
 };

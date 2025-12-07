@@ -22,7 +22,7 @@ const Gallery: React.FC = () => {
                         Không Gian Nhà Hàng
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Khám phá không gian ấm cúng tại nhà hàng Bánh Tráng Phú Cường
+                        Khám phá không gian ấm cúng tại Nhà Hàng Bánh Tráng Phú Cường
                     </p>
                 </motion.div>
 

@@ -30,8 +30,25 @@ export const heroSlides = [
 export const featuredDishes = [
     {
         id: 1,
-        name: 'Bánh tráng thịt Heo quay',
-        description: 'Thịt quay da giòn rụm cuốn bánh tráng chấm mắm nêm đậm đà.',
+        name: 'Bánh Tráng Cuốn Phú Cường – Bánh tráng thịt heo quay giòn rụm, nguyên liệu tươi, phù hợp ăn nhóm/tiệc nhẹ',
+        description: 'Đặc sản miền Trung, Nguyên liệu tươi, Ăn nhóm/tiệc nhẹ',
+        detailedDescription: `Đây là món "Best Seller" tại hệ thống Bánh Tráng Phú Cường, mang đến trải nghiệm vị giác bùng nổ ngay từ miếng cuốn đầu tiên! \n
+Bạn có đang thèm một bữa ăn "đổi gió" vì đã quá chán ngấy những bữa cơm văn phòng khô khan, lặp đi lặp lại? ❓ Bạn có đang tìm kiếm hương vị miền Trung đậm đà nhưng ngại đi xa hoặc sợ không chuẩn vị? ❓ Hay đơn giản, bạn đang muốn ăn thịt nướng thơm lừng nhưng lại sợ dầu mỡ, sợ ngán và muốn bổ sung thêm nhiều rau xanh thanh mát? \n
+Nếu câu trả lời là CÓ, thì món Bánh tráng thịt heo quay tại Phú Cường chính là "chân ái" dành cho bạn ngay lúc này! \n
+Không giống như các món cuốn thông thường, Bánh tráng heo quay Phú Cường chinh phục thực khách bởi sự kết hợp tinh tế "3 trong 1": \n
+🐷 Thịt heo quay "tuyệt kỹ" - Bì giòn tan, thịt mọng nước: \n
+Tính năng: Thịt được quay chín vàng trên lửa than với kỹ thuật canh nhiệt điêu luyện. \n
+Lợi ích: Giúp lớp da heo nổ giòn rụm vui tai khi nhai, nhưng phần thịt bên trong vẫn giữ được độ mềm ngọt tự nhiên, không hề bị khô xác. Cắn một miếng là cảm nhận ngay sự hòa quyện đỉnh cao. \n
+🌿 "Khu vườn" rau sống & đồ chua nhiệt đới: \n
+Tính năng: Kết hợp đa dạng rau rừng (lá cóc, tía tô, hẹ, húng...) cùng xoài xanh, dứa, dưa leo. \n
+Lợi ích: Đập tan cảm giác ngán ngẩm của dầu mỡ. Vị chua thanh của xoài, mùi thơm của rau rừng giúp cân bằng vị giác, khiến bạn ăn mãi mà vẫn thấy thèm, vừa ngon miệng lại vừa nhẹ bụng. \n
+🍜 Bánh tráng phơi sương & Nước chấm "thần thánh": \n
+Tính năng: Bánh tráng chuyên dụng (loại ướt và khô) dẻo dai kết hợp nước chấm mắm nêm pha theo công thức bí truyền. \n
+Lợi ích: Bánh tráng ôm trọn nhân, không bị rách khi cuốn. Nước chấm đậm đà là "linh hồn" gắn kết mọi hương vị, đưa trải nghiệm ẩm thực đường phố Đà Nẵng về ngay trên đầu lưỡi bạn. \n
+Đừng để chiếc bụng đói làm phiền bạn thêm nữa! Hãy thưởng thức ngay tinh hoa ẩm thực Đà Nẵng ngay tại Hà Nội. \n
+🚀 ĐẶT BÀN NGAY hoặc GỌI SHIP LIỀN TAY để nhận ưu đãi mới nhất từ Phú Cường! 👉 ☎️ Hotline: 1900 63 65 69 \n
+🔰 CAM KẾT TỪ BÁNH TRÁNG PHÚ CƯỜNG: \n
+✅ Nguyên liệu tươi sạch 100%: Thịt heo và rau củ được nhập mới mỗi ngày, đảm bảo vệ sinh an toàn thực phẩm tuyệt đối. ✅ Chuẩn vị gốc: Công thức chế biến giữ nguyên bản sắc ẩm thực Quảng Nam - Đà Nẵng. ✅ Phục vụ tận tâm: Đổi món ngay nếu sản phẩm không đúng như mô tả hoặc có lỗi từ nhà bếp.`,
         price: '159.000đ',
         image: '/images/dish-1.jpg',
         category: 'Món Chính',
@@ -42,6 +59,20 @@ export const featuredDishes = [
         id: 2,
         name: 'Bánh tráng thịt Heo hấp',
         description: 'Thịt nướng thơm lừng, ướp gia vị đặc trưng',
+        detailedDescription: `Bánh Tráng Thịt Heo Hấp - món ăn truyền thống được chế biến theo phong cách riêng của Phú Cường.
+
+Nguyên liệu:
+- Thịt heo ba chỉ tươi, hấp chín vừa
+- Bánh tráng Trảng Bàng cao cấp
+- Rau sống đa dạng: xà lách, húng quế, rau răm
+- Nước chấm đặc chế
+
+Cách chế biến:
+- Thịt được lựa chọn kỹ càng, hấp theo thời gian chuẩn
+- Giữ được độ mềm, ngọt tự nhiên của thịt
+- Không bị khô, không bị dai
+
+Phù hợp: Người ăn nhẹ, người ăn kiêng, bữa trưa văn phòng`,
         price: '95.000đ',
         image: '/images/dish-2.jpg',
         category: 'Món Chính',
@@ -120,7 +151,7 @@ export const reviews = [
         name: 'Phạm Minh Tuấn',
         avatar: 'https://placehold.co/150x150/dc2626/ffffff?text=P',
         rating: 5,
-        comment: 'Giá cả hợp lý, phục vụ nhanh chóng. Combo gia đình rất đáng thử!',
+        comment: 'Giá cả hợp lý, phục vụ nhanh chóng rất đáng thử!',
         date: '2025-11-15',
     },
     {
@@ -274,6 +305,9 @@ export const galleryImages = [
     { id: 5, src: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/09/ANH-KHONG-GIAN-03-1.jpg', alt: 'Không gian nhà hàng' },
     { id: 6, src: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/09/ANH-KHONG-GIAN-04-1.jpg', alt: 'Không gian nhà hàng' },
     { id: 7, src: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/09/ANH-KHONG-GIAN-05-1.jpg', alt: 'Không gian nhà hàng' },
+    { id: 8, src: '/images/kg-1.png', alt: 'Không gian nhà hàng' },
+    { id: 9, src: '/images/kg-2.png', alt: 'Không gian nhà hàng' },
+    { id: 10, src: '/images/kg-3.png', alt: 'Không gian nhà hàng' },
 ];
 
 export const aboutContent = {

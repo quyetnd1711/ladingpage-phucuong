@@ -6,6 +6,7 @@ interface CardProps {
     className?: string;
     hover?: boolean;
     glass?: boolean;
+    onClick?: () => void;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -13,6 +14,7 @@ const Card: React.FC<CardProps> = ({
     className = '',
     hover = true,
     glass = false,
+    onClick,
 }) => {
     const baseStyles = 'rounded-xl overflow-hidden transition-all duration-300';
     const hoverStyles = hover ? 'hover:shadow-2xl hover:scale-105' : '';
@@ -25,6 +27,7 @@ const Card: React.FC<CardProps> = ({
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             className={`${baseStyles} ${glassStyles} ${hoverStyles} ${className}`}
+            onClick={onClick}
         >
             {children}
         </motion.div>

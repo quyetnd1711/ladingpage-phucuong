@@ -231,6 +231,27 @@ select:focus {
   }
 }
 
+/* Marquee animation for long dish titles */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+.animate-marquee:hover,
+.animation-pause {
+  animation-play-state: paused;
+}
+
 /* Print Styles */
 @media print {
   .no-print {

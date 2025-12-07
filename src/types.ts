@@ -8,4 +8,16 @@ export interface Dish {
     category: string;
     rating: number;
     isBestseller?: boolean;
+    images?: {
+        cover: string;
+        ingredients: string;
+        preparation: string;
+        gallery?: string[];
+    };
+    infographic?: string;
+    videos?: {
+        promotional: string;
+        restaurant: string;
+    };
+    commitments?: string[];
 }

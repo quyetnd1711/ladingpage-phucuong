@@ -54,6 +54,25 @@ Lợi ích: Bánh tráng ôm trọn nhân, không bị rách khi cuốn. Nước
         category: 'Món Chính',
         rating: 4.9,
         isBestseller: true,
+        images: {
+            cover: "/images/cover.png",
+            ingredients: "https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Banh-trang-thit-heo-quay-1-600x600.jpg",
+            preparation: "https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Banh-trang-cuon-thit-heo-quay-1-600x600.jpg",
+            gallery: [
+                "https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Banh-trang-thit-heo-quay-1-600x600.jpg",
+                "/images/rau.png",
+            ]
+        },
+        infographic: "/images/info.png",
+        videos: {
+            promotional: "/videos/video.mp4",
+            restaurant: "/videos/video.mp4"
+        },
+        commitments: [
+            "Nguyên liệu sạch 100%",
+            "Rau mới mỗi ngày",
+            "Hoàn tiền nếu không đúng mô tả"
+        ],
     },
     {
         id: 2,

@@ -8,7 +8,6 @@ import { featuredDishes } from '../../data/content';
 const DishDetail: React.FC = () => {
     const { id } = useParams();
     const navigate = useNavigate();
-    const [activeTab, setActiveTab] = useState<'info'>('info');
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
     // Find dish by ID
@@ -109,33 +108,31 @@ const DishDetail: React.FC = () => {
                         <div className="lg:col-span-2 p-6 md:p-10 border-r border-gray-100">
                             {/* Content */}
                             <div className="min-h-[300px]">
-                                {activeTab === 'info' && (
-                                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
-                                        <p className="text-gray-600 leading-relaxed text-lg italic border-l-4 border-[#601f1c] pl-4 bg-gray-50 py-4 pr-4 rounded-r-lg">
-                                            "{dish.description}"
-                                        </p>
-                                        <h3 className="text-xl font-bold flex items-center gap-2">
-                                            <FaStar className="text-[#366e42]" /> Câu chuyện món ăn
-                                        </h3>
-                                        <div className="prose text-gray-600 whitespace-pre-line leading-loose">
-                                            {dish.detailedDescription}
-                                        </div>
+                                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
+                                    <p className="text-gray-600 leading-relaxed text-lg italic border-l-4 border-[#601f1c] pl-4 bg-gray-50 py-4 pr-4 rounded-r-lg">
+                                        "{dish.description}"
+                                    </p>
+                                    <h3 className="text-xl font-bold flex items-center gap-2">
+                                        <FaStar className="text-[#366e42]" /> Câu chuyện món ăn
+                                    </h3>
+                                    <div className="prose text-gray-600 whitespace-pre-line leading-loose">
+                                        {dish.detailedDescription}
+                                    </div>
 
-                                        {/* Commitments */}
-                                        {dish.commitments && (
-                                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 pt-8 border-t border-gray-100">
-                                                {dish.commitments.map((item, idx) => (
-                                                    <div key={idx} className="flex items-start gap-3 p-3 rounded-lg bg-[#efebd4]/30">
-                                                        <div className="text-[#366e42] mt-1 text-lg">
-                                                            <FaCheckCircle />
-                                                        </div>
-                                                        <span className="text-sm font-semibold text-gray-800">{item}</span>
+                                    {/* Commitments */}
+                                    {dish.commitments && (
+                                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 pt-8 border-t border-gray-100">
+                                            {dish.commitments.map((item, idx) => (
+                                                <div key={idx} className="flex items-start gap-3 p-3 rounded-lg bg-[#efebd4]/30">
+                                                    <div className="text-[#366e42] mt-1 text-lg">
+                                                        <FaCheckCircle />
                                                     </div>
-                                                ))}
-                                            </div>
-                                        )}
-                                    </motion.div>
-                                )}
+                                                    <span className="text-sm font-semibold text-gray-800">{item}</span>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
+                                </motion.div>
                             </div>
                         </div>
 

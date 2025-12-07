@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                                     className="h-20 md:h-24 mb-4 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300"
                                 />
                                 <h3 className="text-3xl font-bold text-white mb-2">
-                                    Nhà Hàng Phú Cường
+                                    Nhà Hàng Bánh Tráng Phú Cường
                                 </h3>
                                 <p className="text-lg text-[#efebd4] font-semibold mb-4">
                                     Bánh Tráng Cuốn Thịt Heo
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
                                     <div>
                                         <p className="text-xs text-gray-400">Email</p>
                                         <a href="mailto:info@phucuong.vn" className="text-white font-semibold hover:text-[#efebd4] transition-colors">
-                                            info@phucuong.vn
+                                            btthpc@gmail.com
                                         </a>
                                     </div>
                                 </div>

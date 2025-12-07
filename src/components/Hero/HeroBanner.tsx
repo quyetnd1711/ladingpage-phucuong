@@ -12,7 +12,6 @@ interface HeroBannerProps {
 }
 
 const HeroBanner: React.FC<HeroBannerProps> = ({
-    id,
     image,
     title,
     subtitle,

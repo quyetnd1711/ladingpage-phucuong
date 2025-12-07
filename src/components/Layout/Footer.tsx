@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaMapMarkerAlt, FaPhone, FaClock, FaEnvelope } from 'react-icons/fa';
+import { FaFacebook, FaMapMarkerAlt, FaPhone, FaClock, FaEnvelope } from 'react-icons/fa';
 import { SiZalo } from 'react-icons/si';
 import { branches, socialLinks } from '../../data/content';
 

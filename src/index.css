@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --christmas-red: #601f1c;
+  --christmas-green: #366e42;
+  --christmas-gold: #eab308;
+  --christmas-white: #fdfbf7;
+  --christmas-cream: #efebd4;
+  --christmas-dark: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #efebd4;
+  /* Updated global background */
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--christmas-red), var(--christmas-green));
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #601f1c, #366e42);
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Utility Classes */
+@layer utilities {
+  .text-gradient-christmas {
+    @apply bg-gradient-to-r from-[#601f1c] via-[#366e42] to-[#601f1c] bg-clip-text text-transparent;
+  }
+
+  .bg-gradient-christmas {
+    background: linear-gradient(135deg, #601f1c 0%, #366e42 100%);
+  }
+
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .shadow-christmas {
+    box-shadow: 0 10px 40px rgba(220, 38, 38, 0.3);
+  }
+
+  .shadow-glow {
+    box-shadow: 0 0 20px rgba(234, 179, 8, 0.5);
+  }
+}
+
+/* Component Styles */
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-christmas-red-600 to-christmas-red-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-christmas transition-all duration-300 hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-christmas-green-600 text-christmas-green-600 font-semibold rounded-lg hover:bg-christmas-green-600 hover:text-white transition-all duration-300;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-105;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8 lg:px-16;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+/* Snow Animation */
+@keyframes snowfall {
+  0% {
+    transform: translateY(-10vh) translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(100vh) translateX(100px);
+    opacity: 0.3;
+  }
+}
+
+.snowflake {
+  position: fixed;
+  top: -10vh;
+  z-index: 9999;
+  user-select: none;
+  cursor: default;
+  animation: snowfall linear infinite;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Christmas Lights Animation */
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.christmas-light {
+  animation: blink 1.5s ease-in-out infinite;
+}
+
+.christmas-light:nth-child(2n) {
+  animation-delay: 0.5s;
+}
+
+.christmas-light:nth-child(3n) {
+  animation-delay: 1s;
+}
+
+/* Parallax Effect */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Loading Animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  border: 3px solid rgba(96, 31, 28, 0.1);
+  border-radius: 50%;
+  border-top-color: var(--christmas-red);
+  width: 40px;
+  height: 40px;
+  animation: spin 0.8s linear infinite;
+}
+
+/* Fade In on Scroll */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero Section Overlay */
+.hero-overlay {
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.5) 100%);
+}
+
+/* Star Rating */
+.star-rating {
+  color: var(--christmas-gold);
+  font-size: 1.25rem;
+}
+
+/* Form Input Focus */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--christmas-red);
+  box-shadow: 0 0 0 3px rgba(96, 31, 28, 0.1);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

@@ -13,7 +13,7 @@ const Location: React.FC = () => {
     });
 
     return (
-        <section id="location" className="section-padding bg-transparent">
+        <section id="location" className="section-padding bg-transparent overflow-hidden">
             <div className="container-custom px-3 sm:px-4 lg:px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

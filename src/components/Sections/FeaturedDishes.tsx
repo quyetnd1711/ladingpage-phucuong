@@ -22,7 +22,7 @@ const FeaturedDishes: React.FC = () => {
     };
 
     return (
-        <section id="menu" className="section-padding bg-gradient-to-b from-transparent to-christmas-beige-200">
+        <section id="menu" className="section-padding bg-gradient-to-b from-transparent to-christmas-beige-200 overflow-hidden">
             <div className="container-custom px-3 sm:px-4 lg:px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

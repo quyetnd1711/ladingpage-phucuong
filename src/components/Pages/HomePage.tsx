@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
     return (
         <>
             <Header />
-            <main id="home">
+            <main id="home" className="overflow-x-hidden">
                 <HeroSlider />
                 <FeaturedDishes />
                 <About />

@@ -10,7 +10,7 @@ const Gallery: React.FC = () => {
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
     return (
-        <section id="gallery" className="section-padding bg-transparent">
+        <section id="gallery" className="section-padding bg-transparent overflow-hidden">
             <div className="container-custom px-3 sm:px-4 lg:px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

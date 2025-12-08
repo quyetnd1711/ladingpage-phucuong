@@ -7,7 +7,7 @@ import Button from '../UI/Button';
 import { featuredDishes } from '../../data/content';
 import type { Dish } from '../../types';
 
-const categories = ['Tất Cả', 'Món Chính', 'Khai Vị'];
+const categories = ['Tất Cả', 'Bánh Tráng', 'Món Lẩu', 'Món Gà - Chim - Lợn'];
 
 const FeaturedDishes: React.FC = () => {
     const navigate = useNavigate();

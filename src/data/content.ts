@@ -51,7 +51,7 @@ Lợi ích: Bánh tráng ôm trọn nhân, không bị rách khi cuốn. Nước
 ✅ Nguyên liệu tươi sạch 100%: Thịt heo và rau củ được nhập mới mỗi ngày, đảm bảo vệ sinh an toàn thực phẩm tuyệt đối. ✅ Chuẩn vị gốc: Công thức chế biến giữ nguyên bản sắc ẩm thực Quảng Nam - Đà Nẵng. ✅ Phục vụ tận tâm: Đổi món ngay nếu sản phẩm không đúng như mô tả hoặc có lỗi từ nhà bếp.`,
         price: '159.000đ',
         image: '/images/dish-1.jpg',
-        category: 'Món Chính',
+        category: 'Bánh Tráng',
         rating: 4.9,
         isBestseller: true,
         images: {
@@ -77,64 +77,51 @@ Lợi ích: Bánh tráng ôm trọn nhân, không bị rách khi cuốn. Nước
     {
         id: 2,
         name: 'Bánh tráng thịt Heo hấp',
-        description: 'Thịt nướng thơm lừng, ướp gia vị đặc trưng',
-        detailedDescription: `Bánh Tráng Thịt Heo Hấp - món ăn truyền thống được chế biến theo phong cách riêng của Phú Cường.
-
-Nguyên liệu:
-- Thịt heo ba chỉ tươi, hấp chín vừa
-- Bánh tráng Trảng Bàng cao cấp
-- Rau sống đa dạng: xà lách, húng quế, rau răm
-- Nước chấm đặc chế
-
-Cách chế biến:
-- Thịt được lựa chọn kỹ càng, hấp theo thời gian chuẩn
-- Giữ được độ mềm, ngọt tự nhiên của thịt
-- Không bị khô, không bị dai
-
-Phù hợp: Người ăn nhẹ, người ăn kiêng, bữa trưa văn phòng`,
-        price: '95.000đ',
-        image: '/images/dish-2.jpg',
-        category: 'Món Chính',
+        description: 'Bánh tráng thịt Heo hấp với thịt mềm ngọt, mọng nước, phần da giòn dai. Khi ăn cuốn cùng các loại rau gia vị như lá cóc non, rau húng, hẹ… chấm cùng mắm nêm chuẩn vị rất hấp dẫn và thanh đạm.',
+        detailedDescription: ``,
+        price: '159.000đ',
+        image: 'https://banhtrangphucuong.vn/wp-content/uploads/2013/08/Banh-trang-cuon-heo-hap-768x768.jpg',
+        category: 'Bánh Tráng',
         rating: 4.8,
         isBestseller: true,
     },
     {
         id: 3,
-        name: 'Bánh Tráng Cuốn Tôm Thịt',
-        description: 'Tôm tươi kết hợp thịt heo, hương vị hài hòa',
-        price: '105.000đ',
-        image: 'https://placehold.co/800x600/dc2626/ffffff?text=Tom+Thit',
-        category: 'Món Chính',
+        name: 'Bánh tráng cuốn Bò lá lốt',
+        description: 'Chả thịt Bò quấn lá lốt béo ngậy thơm nhức mũi. Cuốn cùng các loại rau gia vị. Chấm nước mắm nêm chuẩn vị miền Trung sẽ chinh phục bất cứ thực khách khó tính nào.',
+        price: '169.000đ',
+        image: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Banh-trang-cuon-bo-la-lot-1-768x768.jpg',
+        category: 'Bánh Tráng',
         rating: 4.7,
         isBestseller: false,
     },
     {
         id: 4,
-        name: 'Nem Nướng Nha Trang',
-        description: 'Nem nướng thơm ngon, giòn rụm, ăn kèm bánh tráng',
-        price: '85.000đ',
-        image: 'https://placehold.co/800x600/16a34a/ffffff?text=Nem+Nuong',
-        category: 'Khai Vị',
-        rating: 4.6,
-        isBestseller: false,
-    },
-    {
-        id: 5,
-        name: 'Bò Nướng Lá Lốt',
-        description: 'Bò tươi cuộn lá lốt, nướng than hoa thơm phức',
-        price: '120.000đ',
-        image: 'https://placehold.co/800x600/eab308/ffffff?text=Bo+La+Lot',
-        category: 'Khai Vị',
+        name: 'Lẩu Ốc',
+        description: 'Lẩu ốc: Set lẩu này bao gồm thịt Ốc Nhồi tươi, mọc Ôc, thịt thăn Bò, chả lá lốt, sườn sụn Heo non, chuối xanh, đậu phụ chiên vàng, phù trúc và các loại rau ăn kèm.',
+        price: '595.000đ',
+        image: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Lau-oc-nhoi-600x600.jpg',
+        category: 'Món Lẩu',
         rating: 4.8,
         isBestseller: true,
     },
     {
+        id: 5,
+        name: 'Lẩu Thái hải sản',
+        description: 'Thực phẩm chính của món Lẩu Thái hải sản là các loại hải sản như Tôm Sú, các Trắm giòn, thanh Cua, Mực, Ngao, Bò ba chỉ Mỹ. Các loại rau đậu ăn kèm như đậu phụ sống, ngô ngọt, nấm …',
+        price: '559.000đ',
+        image: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Lau-Thai-hai-san-768x768.jpg',
+        category: 'Món Lẩu',
+        rating: 4.8,
+        isBestseller: false,
+    },
+    {
         id: 6,
-        name: 'Chả Giò Phú Cường',
-        description: 'Chả giò giòn tan, nhân đầy đặn, công thức gia truyền',
-        price: '75.000đ',
-        image: 'https://placehold.co/800x600/dc2626/ffffff?text=Cha+Gio',
-        category: 'Khai Vị',
+        name: 'Gà hấp mắm (nửa con)',
+        description: 'Gà mái ta hấp với nước mắm cốt và các loại gia vị như hạt tiêu, tỏi, ớt…',
+        price: '285.000đ',
+        image: 'https://banhtrangphucuong.vn/wp-content/uploads/2023/08/Ga-hap-mam-1.jpg',
+        category: 'Món Gà - Chim - Lợn',
         rating: 4.7,
         isBestseller: false,
     },

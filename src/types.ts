@@ -20,4 +20,5 @@ export interface Dish {
         restaurant: string;
     };
     commitments?: string[];
+    commitmentImage?: string;
 }

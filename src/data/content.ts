@@ -47,8 +47,7 @@ Tính năng: Bánh tráng chuyên dụng (loại ướt và khô) dẻo dai kế
 Lợi ích: Bánh tráng ôm trọn nhân, không bị rách khi cuốn. Nước chấm đậm đà là "linh hồn" gắn kết mọi hương vị, đưa trải nghiệm ẩm thực đường phố Đà Nẵng về ngay trên đầu lưỡi bạn. \n
 Đừng để chiếc bụng đói làm phiền bạn thêm nữa! Hãy thưởng thức ngay tinh hoa ẩm thực Đà Nẵng ngay tại Hà Nội. \n
 🚀 ĐẶT BÀN NGAY hoặc GỌI SHIP LIỀN TAY để nhận ưu đãi mới nhất từ Phú Cường! 👉 ☎️ Hotline: 1900 63 65 69 \n
-🔰 CAM KẾT TỪ BÁNH TRÁNG PHÚ CƯỜNG: \n
-✅ Nguyên liệu tươi sạch 100%: Thịt heo và rau củ được nhập mới mỗi ngày, đảm bảo vệ sinh an toàn thực phẩm tuyệt đối. ✅ Chuẩn vị gốc: Công thức chế biến giữ nguyên bản sắc ẩm thực Quảng Nam - Đà Nẵng. ✅ Phục vụ tận tâm: Đổi món ngay nếu sản phẩm không đúng như mô tả hoặc có lỗi từ nhà bếp.`,
+🔰 CAM KẾT TỪ BÁNH TRÁNG PHÚ CƯỜNG: \n`,
         price: '159.000đ',
         image: '/images/dish-1.jpg',
         category: 'Bánh Tráng',
@@ -73,6 +72,7 @@ Lợi ích: Bánh tráng ôm trọn nhân, không bị rách khi cuốn. Nước
             "Rau mới mỗi ngày",
             "Hoàn tiền nếu không đúng mô tả"
         ],
+        commitmentImage: "/images/camket.png",
     },
     {
         id: 2,

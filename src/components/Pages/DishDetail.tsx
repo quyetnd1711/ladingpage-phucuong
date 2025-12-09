@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaArrowLeft, FaStar, FaCheckCircle } from 'react-icons/fa';
+import { FaArrowLeft, FaStar } from 'react-icons/fa';
 import { useParams, useNavigate } from 'react-router-dom';
 import Button from '../UI/Button';
 import { featuredDishes } from '../../data/content';
@@ -122,17 +122,19 @@ const DishDetail: React.FC = () => {
                                         {dish.detailedDescription}
                                     </div>
 
-                                    {/* Commitments */}
-                                    {dish.commitments && (
-                                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-100">
-                                            {dish.commitments.map((item, idx) => (
-                                                <div key={idx} className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg bg-[#efebd4]/30">
-                                                    <div className="text-[#366e42] mt-0.5 sm:mt-1 text-base sm:text-lg">
-                                                        <FaCheckCircle />
-                                                    </div>
-                                                    <span className="text-xs sm:text-sm font-semibold text-gray-800">{item}</span>
-                                                </div>
-                                            ))}
+                                    {/* Cam kết - Image */}
+                                    {dish.commitmentImage && (
+                                        <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-100">
+                                            <div
+                                                onClick={() => setSelectedImage(dish.commitmentImage!)}
+                                                className="cursor-pointer group rounded-xl sm:rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500"
+                                            >
+                                                <img
+                                                    src={dish.commitmentImage}
+                                                    alt="Cam kết chất lượng"
+                                                    className="w-full rounded-xl sm:rounded-2xl transition-all duration-700 group-hover:scale-[1.02]"
+                                                />
+                                            </div>
                                         </div>
                                     )}
                                 </motion.div>

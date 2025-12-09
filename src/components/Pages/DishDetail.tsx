@@ -118,7 +118,7 @@ const DishDetail: React.FC = () => {
                                     <h3 className="text-lg sm:text-xl font-bold flex items-center gap-2">
                                         <FaStar className="text-[#366e42]" /> Câu chuyện món ăn
                                     </h3>
-                                    <div className="prose prose-sm sm:prose text-gray-600 whitespace-pre-line leading-relaxed sm:leading-loose text-sm sm:text-base">
+                                    <div className="prose prose-sm sm:prose text-gray-600 whitespace-pre-line leading-relaxed sm:leading-loose text-sm sm:text-base text-justify">
                                         {dish.detailedDescription}
                                     </div>
 

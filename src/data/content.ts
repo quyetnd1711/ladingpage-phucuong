@@ -32,11 +32,49 @@ export const featuredDishes = [
         id: 1,
         name: 'Bánh Tráng Cuốn Phú Cường – Bánh tráng thịt heo quay giòn rụm, nguyên liệu tươi, phù hợp ăn nhóm/tiệc nhẹ',
         description: 'Đặc sản miền Trung, Nguyên liệu tươi, Ăn nhóm/tiệc nhẹ',
-        detailedDescription: `Đây là món "Best Seller" tại hệ thống Bánh Tráng Phú Cường, mang đến trải nghiệm vị giác bùng nổ ngay từ miếng cuốn đầu tiên. Bạn có đang thèm một bữa ăn "đổi gió" vì đã quá chán ngấy những bữa cơm văn phòng khô khan, lặp đi lặp lại? Bạn có đang tìm kiếm hương vị miền Trung đậm đà nhưng ngại đi xa hoặc sợ không chuẩn vị? Hay đơn giản, bạn đang muốn ăn thịt nướng thơm lừng nhưng lại sợ dầu mỡ, sợ ngán và muốn bổ sung thêm nhiều rau xanh thanh mát? Nếu câu trả lời là CÓ, thì món Bánh tráng thịt heo quay tại Phú Cường chính là "chân ái" dành cho bạn ngay lúc này.
+        detailedDescription: `
+<h2 class="text-[#601f1c] text-xl font-bold mb-4">🔥 BÁNH TRÁNG HEO QUAY – "BEST SELLER" VỊ GIÁC BÙNG NỔ TỪ CUỐN ĐẦU TIÊN!</h2>
 
-Không giống như các món cuốn thông thường, Bánh tráng heo quay Phú Cường chinh phục thực khách bởi sự kết hợp tinh tế "3 trong 1". Thứ nhất là thịt heo quay "tuyệt kỹ" với bì giòn tan, thịt mọng nước - được quay chín vàng trên lửa than với kỹ thuật canh nhiệt điêu luyện, giúp lớp da heo nổ giòn rụm vui tai khi nhai, nhưng phần thịt bên trong vẫn giữ được độ mềm ngọt tự nhiên, không hề bị khô xác. Cắn một miếng là cảm nhận ngay sự hòa quyện đỉnh cao. Thứ hai là "khu vườn" rau sống và đồ chua nhiệt đới, kết hợp đa dạng rau rừng như lá cóc, tía tô, hẹ, húng cùng xoài xanh, dứa, dưa leo, đập tan cảm giác ngán ngẩm của dầu mỡ. Vị chua thanh của xoài, mùi thơm của rau rừng giúp cân bằng vị giác, khiến bạn ăn mãi mà vẫn thấy thèm, vừa ngon miệng lại vừa nhẹ bụng. Thứ ba là bánh tráng phơi sương và nước chấm "thần thánh" - bánh tráng chuyên dụng loại ướt và khô dẻo dai kết hợp nước chấm mắm nêm pha theo công thức bí truyền, giúp bánh tráng ôm trọn nhân không bị rách khi cuốn. Nước chấm đậm đà là "linh hồn" gắn kết mọi hương vị, đưa trải nghiệm ẩm thực đường phố Đà Nẵng về ngay trên đầu lưỡi bạn.
+<h3 class="text-lg font-semibold mt-6 mb-3">Bạn có đang...</h3>
+<ul class="list-disc pl-5 space-y-2 mb-4">
+    <li>Chán ngấy những bữa cơm văn phòng khô khan, lặp đi lặp lại mỗi ngày?</li>
+    <li>Đang thèm "đổi gió" với hương vị miền Trung đậm đà nhưng ngại đi xa hoặc sợ không chuẩn vị?</li>
+    <li>Muốn ăn thịt nướng thơm lừng nhưng lại sợ dầu mỡ, sợ ngán và muốn một bữa ăn healthy, thanh mát?</li>
+</ul>
+<p class="bg-[#601f1c]/10 p-4 rounded-lg border-l-4 border-[#601f1c] mb-6"><strong>✨ Nếu câu trả lời là CÓ, thì Bánh Tráng Thịt Heo Quay tại Phú Cường chính là "chân ái" dành cho bạn ngay lúc này!</strong></p>
 
-Đừng để chiếc bụng đói làm phiền bạn thêm nữa! Hãy thưởng thức ngay tinh hoa ẩm thực Đà Nẵng ngay tại Hà Nội. ĐẶT BÀN NGAY hoặc GỌI SHIP LIỀN TAY để nhận ưu đãi mới nhất từ Phú Cường. Hotline: 1900 63 65 69.`,
+<h3 class="text-lg font-semibold mt-6 mb-3">Tại sao đây lại là món "Best Seller" chinh phục hàng ngàn thực khách?</h3>
+
+<div class="mb-4">
+    <p class="font-semibold text-[#366e42]">Tuyệt kỹ Heo quay da giòn trên lửa than</p>
+    <p class="mb-2">Kỹ thuật canh nhiệt điêu luyện giúp lớp da nổ giòn rụm vui tai, nhưng thịt bên trong vẫn mọng nước.</p>
+    <p class="italic bg-gray-50 p-3 rounded-lg text-gray-600">Bạn sẽ cảm nhận được sự hòa quyện đỉnh cao: Cắn một miếng là giòn tan, ngọt mềm tự nhiên, không hề bị khô xác hay ngấy mỡ.</p>
+</div>
+
+<div class="mb-4">
+    <p class="font-semibold text-[#366e42]">"Khu vườn" Rau rừng & Đồ chua nhiệt đới</p>
+    <p class="mb-2">Sự kết hợp của lá cóc, tía tô, hẹ, húng cùng vị chua thanh của xoài xanh, dứa, dưa leo.</p>
+    <p class="italic bg-gray-50 p-3 rounded-lg text-gray-600">Giúp "đập tan" hoàn toàn cảm giác ngán. Vị chua thanh và hương thơm thảo mộc giúp cân bằng vị giác, khiến bạn ăn mãi mà vẫn thèm!</p>
+</div>
+
+<div class="mb-4">
+    <p class="font-semibold text-[#366e42]">Combo Bánh tráng phơi sương & Mắm nêm "thần thánh"</p>
+    <p class="mb-2">Bánh tráng chuyên dụng (ướt và khô) dẻo dai kết hợp nước chấm bí truyền.</p>
+    <p class="italic bg-gray-50 p-3 rounded-lg text-gray-600">Bánh tráng ôm trọn nhân không lo rách, quyện cùng nước chấm đậm đà "linh hồn" của món ăn.</p>
+</div>
+
+<div class="bg-gradient-to-r from-[#601f1c]/10 to-[#366e42]/10 p-5 rounded-xl mt-6 border border-[#601f1c]/20">
+    <h3 class="text-[#601f1c] font-bold text-lg mb-2">📞 ĐỪNG ĐỂ CHIẾC BỤNG ĐÓI LÀM PHIỀN BẠN THÊM NỮA!</h3>
+    <p class="mb-2">Hãy thưởng thức ngay tinh hoa ẩm thực Đà Nẵng ngay tại Hà Nội.</p>
+    <p class="mb-3"><strong>ĐẶT BÀN NGAY</strong> hoặc <strong>INBOX</strong> để nhận ưu đãi mới nhất từ Phú Cường.</p>
+    <p class="text-xl font-bold text-[#601f1c]">HOTLINE: <a href="tel:1900636569" class="underline hover:no-underline">1900 63 65 69</a></p>
+</div>
+
+<hr class="my-6 border-gray-200">
+
+<h3 class="text-lg font-semibold mb-3">✅ CAM KẾT TỪ HỆ THỐNG BÁNH TRÁNG PHÚ CƯỜNG</h3>
+<p>Chúng tôi hiểu sự lo lắng của bạn về vệ sinh và chất lượng, vì vậy Phú Cường cam kết:</p>
+`,
         price: '159.000đ',
         image: '/images/dish-1.jpg',
         category: 'Bánh Tráng',

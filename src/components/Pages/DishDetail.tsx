@@ -115,12 +115,10 @@ const DishDetail: React.FC = () => {
                                     <p className="text-gray-600 leading-relaxed text-sm sm:text-base md:text-lg italic border-l-4 border-[#601f1c] pl-3 sm:pl-4 bg-gray-50 py-3 sm:py-4 pr-3 sm:pr-4 rounded-r-lg">
                                         "{dish.description}"
                                     </p>
-                                    <h3 className="text-lg sm:text-xl font-bold flex items-center gap-2">
-                                        <FaStar className="text-[#366e42]" /> Câu chuyện món ăn
-                                    </h3>
-                                    <div className="prose prose-sm sm:prose text-gray-600 whitespace-pre-line leading-relaxed sm:leading-loose text-sm sm:text-base text-justify">
-                                        {dish.detailedDescription}
-                                    </div>
+                                    <div
+                                        className="prose prose-sm sm:prose text-gray-600 leading-relaxed sm:leading-loose text-sm sm:text-base text-justify"
+                                        dangerouslySetInnerHTML={{ __html: dish.detailedDescription || '' }}
+                                    />
 
                                     {/* Cam kết - Image */}
                                     {dish.commitmentImage && (

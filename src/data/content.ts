@@ -103,7 +103,7 @@ export const featuredDishes = [
     },
     {
         id: 2,
-        name: 'Bánh tráng thịt Heo hấp',
+        name: 'Bánh tráng thịt heo hấp: Bánh tráng cuốn Phú Cường - Bánh tráng cuốn thịt heo luộc thanh đạm, nguyên liệu tươi, phù hợp ăn nhóm/tiệc nhẹ',
         description: 'Bánh tráng thịt Heo hấp với thịt mềm ngọt, mọng nước, phần da giòn dai. Khi ăn cuốn cùng các loại rau gia vị như lá cóc non, rau húng, hẹ… chấm cùng mắm nêm chuẩn vị rất hấp dẫn và thanh đạm.',
         detailedDescription: ``,
         price: '159.000đ',
@@ -114,7 +114,7 @@ export const featuredDishes = [
     },
     {
         id: 3,
-        name: 'Bánh tráng cuốn Bò lá lốt',
+        name: 'Bánh cuốn bò lá lốt: Bánh tráng cuốn Phú Cường - Bánh tráng cuốn bò lá lốt nướng than hoa thơm lừng, nguyên liệu tươi mới, suất đầy đặn',
         description: 'Chả thịt Bò quấn lá lốt béo ngậy thơm nhức mũi. Cuốn cùng các loại rau gia vị. Chấm nước mắm nêm chuẩn vị miền Trung sẽ chinh phục bất cứ thực khách khó tính nào.',
         price: '169.000đ',
         image: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Banh-trang-cuon-bo-la-lot-1-768x768.jpg',
@@ -124,7 +124,7 @@ export const featuredDishes = [
     },
     {
         id: 4,
-        name: 'Lẩu Ốc',
+        name: 'Lẩu ốc: Lẩu Phú Cường - Lẩu ốc hương vị thanh mát đặc sản đồng quê set 3-4 người ăn',
         description: 'Lẩu ốc: Set lẩu này bao gồm thịt Ốc Nhồi tươi, mọc Ôc, thịt thăn Bò, chả lá lốt, sườn sụn Heo non, chuối xanh, đậu phụ chiên vàng, phù trúc và các loại rau ăn kèm.',
         price: '595.000đ',
         image: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Lau-oc-nhoi-600x600.jpg',
@@ -134,7 +134,7 @@ export const featuredDishes = [
     },
     {
         id: 5,
-        name: 'Lẩu Thái hải sản',
+        name: 'Lẩu thái hải sản: Lẩu Phú Cường -  Lẩu thái hải sản nước dùng chua cay đậm đà topping tôm mực tươi ngon phù hợp cho 3-4 người ăn',
         description: 'Thực phẩm chính của món Lẩu Thái hải sản là các loại hải sản như Tôm Sú, các Trắm giòn, thanh Cua, Mực, Ngao, Bò ba chỉ Mỹ. Các loại rau đậu ăn kèm như đậu phụ sống, ngô ngọt, nấm …',
         price: '559.000đ',
         image: 'https://banhtrangphucuong.vn/wp-content/uploads/2022/10/Lau-Thai-hai-san-768x768.jpg',
@@ -144,7 +144,7 @@ export const featuredDishes = [
     },
     {
         id: 6,
-        name: 'Gà hấp mắm (nửa con)',
+        name: 'Gà hấp mắm: Món gà Phú Cường - Gà hấp mắm nhĩ da giòn sần sật thấm vị đậm đà đưa cơm nửa con',
         description: 'Gà mái ta hấp với nước mắm cốt và các loại gia vị như hạt tiêu, tỏi, ớt…',
         price: '285.000đ',
         image: 'https://banhtrangphucuong.vn/wp-content/uploads/2023/08/Ga-hap-mam-1.jpg',

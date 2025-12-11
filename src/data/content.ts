@@ -74,6 +74,11 @@ export const featuredDishes = [
 
 <h3 class="text-lg font-semibold mb-3">✅ CAM KẾT TỪ HỆ THỐNG BÁNH TRÁNG PHÚ CƯỜNG</h3>
 <p>Chúng tôi hiểu sự lo lắng của bạn về vệ sinh và chất lượng, vì vậy Phú Cường cam kết:</p>
+    <ul>
+        <li><strong>CHUẨN VỊ 100%:</strong> Công thức độc quyền mang đến hương vị miền Trung chính gốc.</li>
+        <li><strong>TƯƠI SẠCH MỖI NGÀY:</strong> Rau xanh và thịt heo được nhập mới và chế biến trong ngày, đảm bảo vệ sinh ATTP.</li>
+        <li><strong>GIAO HÀNG TẬN NƠI:</strong> Đóng gói cẩn thận, món ăn đến tay khách hàng vẫn giữ được độ tươi ngon và giòn rụm.</li>
+    </ul>
 `,
         price: '159.000đ',
         image: '/images/dish-1.jpg',

@@ -120,21 +120,7 @@ const DishDetail: React.FC = () => {
                                         dangerouslySetInnerHTML={{ __html: dish.detailedDescription || '' }}
                                     />
 
-                                    {/* Cam kết - Image */}
-                                    {dish.commitmentImage && (
-                                        <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-100">
-                                            <div
-                                                onClick={() => setSelectedImage(dish.commitmentImage!)}
-                                                className="cursor-pointer group rounded-xl sm:rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500"
-                                            >
-                                                <img
-                                                    src={dish.commitmentImage}
-                                                    alt="Cam kết chất lượng"
-                                                    className="w-full rounded-xl sm:rounded-2xl transition-all duration-700 group-hover:scale-[1.02]"
-                                                />
-                                            </div>
-                                        </div>
-                                    )}
+
                                 </motion.div>
                             </div>
                         </div>
@@ -219,6 +205,23 @@ const DishDetail: React.FC = () => {
                                             src={dish.infographic}
                                             alt="Hướng dẫn ăn"
                                             className="w-full rounded-lg sm:rounded-xl transition-all duration-700 group-hover:scale-105"
+                                        />
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* Cam kết - Image */}
+                            {dish.commitmentImage && (
+                                <div className="space-y-2 sm:space-y-3">
+                                    <h4 className="font-bold text-[#366e42] text-xs sm:text-sm uppercase tracking-wide">Cam kết chất lượng</h4>
+                                    <div
+                                        onClick={() => setSelectedImage(dish.commitmentImage!)}
+                                        className="cursor-pointer group rounded-xl sm:rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500"
+                                    >
+                                        <img
+                                            src={dish.commitmentImage}
+                                            alt="Cam kết chất lượng"
+                                            className="w-full rounded-xl sm:rounded-2xl transition-all duration-700 group-hover:scale-[1.02]"
                                         />
                                     </div>
                                 </div>

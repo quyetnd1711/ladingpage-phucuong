@@ -82,7 +82,10 @@ const FeaturedDishes: React.FC = () => {
                             </div>
 
                             <div className="p-4 sm:p-5 md:p-6 flex flex-col flex-grow">
-                                <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1.5 sm:mb-2 line-clamp-2">
+                                <h3
+                                    className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1.5 sm:mb-2 line-clamp-2"
+                                    title={dish.name}
+                                >
                                     {dish.name}
                                 </h3>
 
